@@ -32,7 +32,7 @@ Mandatory fields:
 }
 ```
 
-### 2.  Get issuer profile  - GET /profile/<issuerName>
+### 2.  Get issuer profile  - GET /profile/{issuerName}
 
 #### Response
 ```
@@ -45,7 +45,7 @@ Mandatory fields:
 }
 ```
 
-### 3. Issue Verifiable Credential - POST /{issuer}/credentials/issueCredential
+### 3. Issue Verifiable Credential - POST /{profile}/credentials/issueCredential
 Path:
 - profile : name of the profile as created in section 1. 
 
